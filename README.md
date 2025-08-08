@@ -1,40 +1,83 @@
-🔊 Multilingual Voice Translation – "Maathi Tharan Sollu"
-Project Overview:
 
-The Multilingual Voice Translation web application, titled "Maathi Tharan Sollu", is an interactive voice translation tool that allows real-time speech recognition and multilingual translation across five major Indian languages: English, Tamil, Telugu, Hindi, and Malayalam. Built with a sleek and responsive HTML/CSS front end and powered by browser-native speech recognition (using webkitSpeechRecognition), the tool offers users a seamless experience to speak in one language and receive an instant translation in another.
+# 🔊 Maathi Tharan Sollu – Multilingual Voice Translation
 
-Key Features:
+[![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)]()
+[![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)]()
+[![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Prototype-red)]()
 
-🎙️ Voice Input Interface: Users can speak directly into their microphone to initiate real-time transcription.
+The **"Maathi Tharan Sollu"** project is a **real-time multilingual voice translation tool** that recognizes your speech and instantly translates it into your chosen language.  
+It currently supports **5 major Indian languages** – **English, Tamil, Telugu, Hindi, and Malayalam** – with a stylish, user-friendly interface.
 
-🌐 Five Language Support: Supports translation between English, Tamil, Telugu, Hindi, and Malayalam.
+---
 
-🔁 Bi-directional Translation: Select both source and target languages flexibly from the dropdown.
+## ✨ Features
 
-⚡ Real-time Feedback: Displays live speech transcription and translation results on-screen.
+- 🎙️ **Voice Input Interface** – Speak directly into your mic for instant transcription.
+- 🌐 **Five Language Support** – Translate between English, Tamil, Telugu, Hindi, and Malayalam.
+- 🔁 **Bi-directional Translation** – Flexible choice of source and target languages.
+- ⚡ **Real-time Feedback** – Live transcription and translation updates.
+- 🎨 **Modern UI/UX** – Stylish black-red theme with Tamil design touches.
+- 🛑 **Stop & Restart** – Easy mic control for a smooth experience.
+- 🔄 **Mock Translation Logic** – Demonstrates multilingual conversion (ready for real API integration).
 
-🎨 Modern UI/UX: Stylish and immersive interface with dynamic visual effects and Tamil language touches for authenticity.
+---
 
-🛑 Stop Button Functionality: Users can stop voice capture at any time and re-initiate it easily.
+## 🖥️ Screenshots
 
-🔄 Mock Translation Logic: Demonstrates multilingual conversion via a simulated translation engine (ideal for prototyping and further integration with APIs like Google Translate or Azure Cognitive Services).
+### Home Screen
+![Home Screen](screenshots/home.png)
 
-Technologies Used:
+### Live Translation
+![Translation Example](screenshots/translation.png)
 
-HTML5, CSS3 (with custom fonts and animation)
+---
 
-JavaScript for dynamic behavior
+## 🛠 Technologies Used
 
-Web Speech API (webkitSpeechRecognition)
+- **HTML5** – Structure
+- **CSS3** – Styling, animations, responsive layout
+- **JavaScript** – Dynamic functionality
+- **Web Speech API** (`webkitSpeechRecognition`) – Voice recognition
+- **Mock JSON Translation** – For prototyping translations
 
-Mock JSON-based translation logic (can be upgraded to use actual translation APIs)
+---
 
-Use Case Scenarios:
+## 📦 Installation
 
-Language learning and educational assistance
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/your-username/maathi-tharan-sollu.git
+   cd maathi-tharan-sollu
+````
 
-Multilingual customer service interactions
+2. **Run the App**
 
-Real-time community communication support in diverse linguistic environments
+   * Open `index.html` in **Google Chrome** (recommended for speech API support).
 
-Personal translator in multilingual households or field settings
+---
+
+## 🚀 Usage
+
+1. Select your **source language** and **target language**.
+2. Click **MIC** to start speaking.
+3. View **instant transcription** and **translation**.
+4. Press **Stop** to end the session.
+
+---
+
+## 💡 Future Plans
+
+* 🔗 Integrate with **Google Translate API** / **Azure Cognitive Services**
+* 🌍 Add more languages
+* 📱 Mobile-optimized layout
+* 🗂 Save translations for later
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
