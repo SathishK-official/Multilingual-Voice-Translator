@@ -27,10 +27,13 @@ It currently supports **5 major Indian languages** – **English, Tamil, Telugu,
 ## 🖥️ Screenshots
 
 ### Home Screen
-![Home Screen](screenshots/home.png)
+<img width="1919" height="1035" alt="image" src="https://github.com/user-attachments/assets/eabb3dcc-1f02-44c3-98f6-abac22d502b3" />
+
 
 ### Live Translation
-![Translation Example](screenshots/translation.png)
+<img width="1919" height="1029" alt="image" src="https://github.com/user-attachments/assets/b9e36148-01e3-4f72-bd92-fce3012a38ff" />
+
+
 
 ---
 
